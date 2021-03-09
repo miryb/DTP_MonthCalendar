@@ -105,10 +105,8 @@
     <None Include="images\sky_wallpaper.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="images\MonthCalendarInstructions.JPG" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="images\blue_airplane.ico" />
+    <Content Include="images\MonthCalendarInstructions.JPG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
