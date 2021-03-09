@@ -102,7 +102,7 @@ namespace Flights_App
         new System.DateTime(2021, 3, 12, 0, 0, 0, 0)};
             this.monthCalendar1.FirstDayOfWeek = System.Windows.Forms.Day.Monday;
             this.monthCalendar1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(36)))), ((int)(((byte)(118)))));
-            this.monthCalendar1.Location = new System.Drawing.Point(47, 56);
+            this.monthCalendar1.Location = new System.Drawing.Point(47, 81);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.SelectionRange = new System.Windows.Forms.SelectionRange(new System.DateTime(2021, 3, 9, 0, 0, 0, 0), new System.DateTime(2021, 3, 11, 0, 0, 0, 0));
             this.monthCalendar1.ShowTodayCircle = false;
@@ -113,7 +113,7 @@ namespace Flights_App
             // Color_button1
             // 
             this.Color_button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.Color_button1.Location = new System.Drawing.Point(362, 123);
+            this.Color_button1.Location = new System.Drawing.Point(347, 152);
             this.Color_button1.Name = "Color_button1";
             this.Color_button1.Size = new System.Drawing.Size(136, 57);
             this.Color_button1.TabIndex = 6;

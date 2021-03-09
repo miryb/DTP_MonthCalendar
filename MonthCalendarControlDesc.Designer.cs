@@ -29,7 +29,6 @@ namespace Flights_App
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MonthCalendarControlDesc));
             this.SuspendLayout();
             // 
             // MonthCalendarControlDesc
@@ -37,7 +36,7 @@ namespace Flights_App
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::Flights_App.Properties.Resources.MonthCalendarInstructions;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1303, 728);
             this.ForeColor = System.Drawing.Color.DodgerBlue;

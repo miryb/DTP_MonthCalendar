@@ -29,7 +29,6 @@ namespace Flights_App
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.BannerLabel = new System.Windows.Forms.Label();
             this.DTPDescriptionBullet1 = new System.Windows.Forms.Label();
             this.DTPDescriptionBullet2 = new System.Windows.Forms.Label();
@@ -222,7 +221,7 @@ namespace Flights_App
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(105)))), ((int)(((byte)(169)))));
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::Flights_App.Properties.Resources.hourglass_twilight;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1011, 670);
             this.Controls.Add(this.Note1);
